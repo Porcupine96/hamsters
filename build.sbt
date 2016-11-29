@@ -1,10 +1,12 @@
-name := "hamsters-test-release"
+import sbt.Keys._
 
-version := "fixed"
-
+name := "hamsters_test"
+organization := "io.github.scala-hamsters"
+version := "Fixed"
 scalaVersion := "2.11.8"
-
+scalacOptions in(Compile, doc) := Seq("-groups", "-implicits")
+publishMavenStyle := true
 libraryDependencies ++= Seq(
-   "io.github.scala-hamsters" %% "hamsters" % "1.1.0",
-   "org.scalatest" %% "scalatest" % "2.2.6" % "test"
+ "io.github.scala-hamsters" %% "hamsters" % "1.1.0",
+ "org.scalatest" %% "scalatest" % "2.2.6" % "test"
 )
