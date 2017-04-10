@@ -8,6 +8,6 @@ crossScalaVersions := Seq("2.11.8", "2.12.1")
 scalacOptions in(Compile, doc) := Seq("-groups", "-implicits")
 publishMavenStyle := true
 libraryDependencies ++= Seq(
- "io.github.scala-hamsters" %% "hamsters" % "1.1.3-SNAPSHOT",
+ "io.github.scala-hamsters" %% "hamsters" % "1.1.3",
  "org.scalatest" %% "scalatest" % "3.0.1" % "test"
 )
