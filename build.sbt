@@ -4,9 +4,10 @@ name := "hamsters_test"
 organization := "io.github.scala-hamsters"
 version := "Fixed"
 scalaVersion := "2.11.8"
+crossScalaVersions := Seq("2.11.8", "2.12.1")
 scalacOptions in(Compile, doc) := Seq("-groups", "-implicits")
 publishMavenStyle := true
 libraryDependencies ++= Seq(
  "io.github.scala-hamsters" %% "hamsters" % "1.1.2",
- "org.scalatest" %% "scalatest" % "2.2.6" % "test"
+ "org.scalatest" %% "scalatest" % "3.0.1" % "test"
 )
