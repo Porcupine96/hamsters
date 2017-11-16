@@ -9,7 +9,7 @@ addCompilerPlugin("org.scalameta" % "paradise" % "3.0.0-M10" cross CrossVersion.
 scalacOptions in(Compile, doc) := Seq("-groups", "-implicits")
 publishMavenStyle := true
 libraryDependencies ++= Seq(
+ "org.scalameta" %% "scalameta" % "1.8.0",
  "io.github.scala-hamsters" %% "hamsters" % "2.1.1",
- "io.github.scala-hamsters" %% "macros" % "2.1.1",
  "org.scalatest" %% "scalatest" % "3.0.1" % "test"
 )
