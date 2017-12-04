@@ -10,6 +10,6 @@ scalacOptions in(Compile, doc) := Seq("-groups", "-implicits")
 publishMavenStyle := true
 libraryDependencies ++= Seq(
  "org.scalameta" %% "scalameta" % "1.8.0",
- "io.github.scala-hamsters" %% "hamsters" % "2.1.2",
+ "io.github.scala-hamsters" %% "hamsters" % "2.2.0",
  "org.scalatest" %% "scalatest" % "3.0.1" % "test"
 )
