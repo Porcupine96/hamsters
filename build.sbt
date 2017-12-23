@@ -10,7 +10,7 @@ lazy val settings = Defaults.coreDefaultSettings ++ Seq(
   scalacOptions in(Compile, doc) := Seq("-groups", "-implicits"),
   libraryDependencies ++= Seq(
  "org.scalameta" %% "scalameta" % "1.8.0",
- "io.github.scala-hamsters" %% "hamsters" % "2.3.1",
+ "io.github.scala-hamsters" %% "hamsters" % "2.4.0",
  "org.scalamock" %%% "scalamock-scalatest-support" % "3.6.0" % "test",
  "org.scalatest" %% "scalatest" % "3.0.1" % "test"
 ))
